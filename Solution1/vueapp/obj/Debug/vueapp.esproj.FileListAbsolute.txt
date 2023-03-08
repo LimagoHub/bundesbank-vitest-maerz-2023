@@ -1,0 +1,2 @@
+C:\Users\JoachimWagner\git\buba\bundesbank-vitest-maerz-2023\Solution1\vueapp\obj\Debug\vueapp.esproj.SuggestedBindingRedirects.cache
+C:\Users\JoachimWagner\git\buba\bundesbank-vitest-maerz-2023\Solution1\vueapp\obj\Debug\vueapp.esproj.CoreCompileInputs.cache
