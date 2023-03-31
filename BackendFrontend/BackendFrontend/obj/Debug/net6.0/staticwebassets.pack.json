@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\JoachimWagner\\git\\buba\\bundesbank-vitest-maerz-2023\\BackendFrontend\\BackendFrontend\\wwwroot\\assets\\AboutView-4d995ba2.css",
+      "PackagePath": "staticwebassets\\assets\\AboutView-4d995ba2.css"
+    },
+    {
+      "Id": "C:\\Users\\JoachimWagner\\git\\buba\\bundesbank-vitest-maerz-2023\\BackendFrontend\\BackendFrontend\\wwwroot\\assets\\AboutView-508cf057.js",
+      "PackagePath": "staticwebassets\\assets\\AboutView-508cf057.js"
+    },
+    {
+      "Id": "C:\\Users\\JoachimWagner\\git\\buba\\bundesbank-vitest-maerz-2023\\BackendFrontend\\BackendFrontend\\wwwroot\\assets\\index-3d6dc206.js",
+      "PackagePath": "staticwebassets\\assets\\index-3d6dc206.js"
+    },
+    {
+      "Id": "C:\\Users\\JoachimWagner\\git\\buba\\bundesbank-vitest-maerz-2023\\BackendFrontend\\BackendFrontend\\wwwroot\\assets\\index-81e4655a.css",
+      "PackagePath": "staticwebassets\\assets\\index-81e4655a.css"
+    },
+    {
+      "Id": "C:\\Users\\JoachimWagner\\git\\buba\\bundesbank-vitest-maerz-2023\\BackendFrontend\\BackendFrontend\\wwwroot\\assets\\logo-277e0e97.svg",
+      "PackagePath": "staticwebassets\\assets\\logo-277e0e97.svg"
+    },
+    {
+      "Id": "C:\\Users\\JoachimWagner\\git\\buba\\bundesbank-vitest-maerz-2023\\BackendFrontend\\BackendFrontend\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\JoachimWagner\\git\\buba\\bundesbank-vitest-maerz-2023\\BackendFrontend\\BackendFrontend\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BackendFrontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BackendFrontend.props",
+      "PackagePath": "build\\BackendFrontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BackendFrontend.props",
+      "PackagePath": "buildMultiTargeting\\BackendFrontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BackendFrontend.props",
+      "PackagePath": "buildTransitive\\BackendFrontend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
