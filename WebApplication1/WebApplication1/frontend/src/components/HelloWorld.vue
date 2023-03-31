@@ -1,12 +1,12 @@
 <template>
     <div id="app">
-        <h1>Shopping List</h1>
+        <h1>WeatherForecasts</h1>
     </div>
-    <button @click="add({id: 10, bezeichnung: 'Vitamin C', preis: 3.67})">Drück mich</button>
+    
     
     <ul>
-        <li v-for="product in products" >
-            {{ product.summary }}
+        <li v-for="forecast in forecasts">
+            {{ forecast.summary }}
         </li>
     </ul>
 </template>
@@ -17,32 +17,8 @@
     export default {
         name: "App",
         setup() {
-            const products = ref([]);
-            async function add(product) {
-                try {
-                    const res = await axios.post(`http://localhost:8081/products`, product);
-
-                } catch (error) {
-                    console.log(error);
-                }
-            };
-            async function update(product) {
-                try {
-                    const res = await axios.put(`http://localhost:8081/products/${product.id}`, product);
-
-                } catch (error) {
-                    console.log(error);
-                }
-            };
-
-            async function remove(product) {
-                try {
-                    const res = await axios.delete(`http://localhost:8081/products/${product.id}`);
-
-                } catch (error) {
-                    console.log(error);
-                }
-            };
+            const forecasts = ref([]);
+           
             return {
                 products, add, update, remove
             };

@@ -1,23 +1,38 @@
-<script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
-</script>
-
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
-  </div>
+    <div id="app">
+        <h1>WeatherForecasts</h1>
+    </div>
+
+
+    <ul>
+        <li v-for="forecast in forecasts">
+            {{ forecast.summary }}
+        </li>
+    </ul>
 </template>
 
+<script>
+    import { ref } from "vue";
+    import axios from "axios";
+    export default {
+        name: "App",
+        setup() {
+            const forecasts = ref([]);
+
+            return {
+                forecasts,
+            };
+        },
+        async created() {
+            try {
+                const res = await axios.get("/WeatherForecast");
+                this.forecasts = res.data;
+            } catch (error) {
+                console.log(error);
+            }
+        },
+    };
+</script>
 <style scoped>
 h1 {
   font-weight: 500;
